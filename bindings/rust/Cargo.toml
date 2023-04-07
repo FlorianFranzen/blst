@@ -14,12 +14,12 @@ include = [
     "/src",
     "/build.rs",
     "/README.md",
-    "/blst/src/*.c",
-    "/blst/src/*.h*",
-    "/blst/build/**",
-    "/blst/bindings/blst.h",
-    "/blst/bindings/blst_aux.h",
-    "/blst/bindings/blst.hpp",
+    "../../blst/src/*.c",
+    "../../blst/src/*.h*",
+    "../../blst/build/**",
+    "../../blst/bindings/blst.h",
+    "../../blst/bindings/blst_aux.h",
+    "../../blst/bindings/blst.hpp",
 ]
 links = "blst"
 
